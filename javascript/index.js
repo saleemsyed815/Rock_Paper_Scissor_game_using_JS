@@ -55,6 +55,7 @@ function win(btn){
         btn.classList.remove("green");
     }, 1200);
 }
+
 function draw(btn){
 	document.getElementById("who").innerHTML = "It's a Draw.";
 	var btn = document.getElementById(btn);
@@ -65,6 +66,7 @@ function draw(btn){
         btn.classList.remove("gray");
     }, 1200);
 }
+
 function lose(btn){
 	comPoints++;
 	document.getElementById("who").innerHTML = "You lose...";
